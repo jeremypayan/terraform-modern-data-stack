@@ -13,7 +13,7 @@ You need:
 - A Google Cloud Platform Account 
 - A GCP Project where you want to build this example infrastructure (the best is to be multi projects for production purpose)
 
-For granting Terraform to interact with our GCP account, we need to create a service account with Owner rights on the platform. Here it is terraform-infra-380516 account. 
+For granting Terraform to interact with our GCP account, we need to create a service account with Owner rights on the platform. Here it is terraform-infra-380516 account but you have to create your own service account linked to your GCP project(s). 
 
 # Setup 
 
@@ -49,7 +49,7 @@ Source : [Install Terraform](https://developer.hashicorp.com/terraform/downloads
 
 Clone and reach the repository
 ````
-git clone https://github.com/cityscoot/terraform-dbp
+git clone https://github.com/jeremypayan/terraform-modern-data-stack
 cd terraform-dbp
 ````
 
